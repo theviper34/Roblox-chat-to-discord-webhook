@@ -1,4 +1,5 @@
 getgenv().webhookUrl = "" -- put discord webhook here
+
 local http_request = http_request or request or HttpPost or syn.request
 
 local function sendToWebhook(message)
